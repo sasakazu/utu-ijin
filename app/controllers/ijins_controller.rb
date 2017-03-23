@@ -1,0 +1,2 @@
+class IjinsController < ApplicationController
+end
