@@ -8,9 +8,12 @@ class PagesController < ApplicationController
   end
 
   def book
+  end
+
+  def goodnews
 
   end
 
 
-  
+
 end
