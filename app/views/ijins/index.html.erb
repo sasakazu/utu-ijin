@@ -14,10 +14,7 @@
 
     <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="アインシュタイン">
 
-        <a href="https://www.amazon.co.jp/gp/search/ref=as_li_qf_sp_sr_il_tl?ie=UTF8&tag=saitoukazuki-22&keywords=アインシュタイン&index=aps&camp=247&creative=1211&linkCode=xm2&linkId=933b404bf358fe04aaf1a4c641af18dd" class="" target="_blank">
-
-        <img src="/images/ainsyutain.jpg" alt="...">
-      </a>
+      <%= link_to image_tag("/images/ainsyutain.jpg") ,ijins_ainsyutain_path, { :target => "_blank" } %>
 
 
     </button>
@@ -28,10 +25,8 @@
 
      <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Steave jobs">
 
-       <a href="https://www.amazon.co.jp/gp/search/ref=as_li_qf_sp_sr_il_tl?ie=UTF8&tag=saitoukazuki-22&keywords=スティーブ・ジョブズ&index=aps&camp=247&creative=1211&linkCode=xm2&linkId=deaeb6437fb986f02c1a394cdca47c0c" class="" target="_blank">
 
-         <img src="/images/jobs2.jpg" alt="...">
-       </a>
+       <%= link_to image_tag("/images/jobs.jpg") ,ijins_jobs_path, { :target => "_blank" } %>
 
 
      </button>
