@@ -11,7 +11,9 @@ class PagesController < ApplicationController
   end
 
   def goodnews
+  end
 
+  def beanknow
   end
 
 
