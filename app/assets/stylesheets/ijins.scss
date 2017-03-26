@@ -34,13 +34,34 @@
 
     margin-top: 70px;
     margin-bottom: 100px;
+    color: #000;
+    margin-left: 70px;
 
+  }
+
+  a:hover {
+    text-decoration: none;
   }
 }
 
 .jobs-image {
 
   img {
+
+  }
+}
+
+.jobs-content {
+
+  p {
+
+    word-wrap: break-word;
+    text-align: right;
+    font-size: 17px;
+    font-family: serif;
+    line-height: 33px;
+    color: #999;
+
 
   }
 }
