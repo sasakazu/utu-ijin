@@ -34,7 +34,7 @@
 
     margin-top: 70px;
     margin-bottom: 100px;
-    color: #000;
+    color: #666;
     margin-left: 70px;
 
   }
@@ -45,6 +45,10 @@
 }
 
 .jobs-image {
+
+  a {
+    margin-left: 90px;
+  }
 
   img {
 
@@ -62,7 +66,18 @@
     line-height: 33px;
     color: #999;
     margin-bottom: 76px;
+    margin-left: 80px;
 
 
   }
+
+  iframe {
+    margin-left: 100px;
+  }
+
+
+
+
+
+
 }
