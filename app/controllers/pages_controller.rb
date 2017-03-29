@@ -16,6 +16,10 @@ class PagesController < ApplicationController
   def beanknow
   end
 
+  def checker
+
+  end
+
 
 
 end
