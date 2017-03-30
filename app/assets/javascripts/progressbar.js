@@ -238,22 +238,22 @@ $(function() {
                               }).html(" 55% ");
                               }
 
-                                    else if($("#items2 :checked").length == 12) {
-                                    $pb2.attr({
+                      else if($("#items2 :checked").length == 12) {
+                                $pb2.attr({
                                       'style':'width:60%;',
-                                      'class':'progress-bar'
-                                    }).html(" 60% ");
+                          'class':'progress-bar'
+                          }).html(" 60% ");
                                     }
 
 
-                                     else if($("#items2 :checked").length == 13) {
+               else if($("#items2 :checked").length == 13) {
                                     $pb2.attr({
                                       'style':'width:65%;',
                                       'class':'progress-bar'
                                     }).html(" 65% ");
                                     }
 
-                                          else if($("#items2 :checked").length == 14) {
+    else if($("#items2 :checked").length == 14) {
                                           $pb2.attr({
                                             'style':'width:70%;',
                                             'class':'progress-bar'
@@ -261,10 +261,10 @@ $(function() {
                                           }
 
 
-                                           else if($("#items2 :checked").length == 15) {
+               else if($("#items2 :checked").length == 15) {
                                           $pb2.attr({
                                             'style':'width:75%;',
-                                            'class':'progress-bar'
+                    'class':'progress-bar'
                                           }).html(" 75% ");
                                           }
 
@@ -301,14 +301,12 @@ $(function() {
                                                         }
 
 
-                                                         else if($("#items2 :checked").length == 20) {
+                                         else if($("#items2 :checked").length == 20) {
                                                         $pb2.attr({
                                                           'style':'width:100%;',
                                                           'class':'progress-bar progress-bar-striped active'
                                                         }).html(" 100% ");
                                                         }
-
-
 
 
        else {
