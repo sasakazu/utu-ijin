@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
 
+
   root 'pages#home'
 
   resources :users
   resources :knowledges
+  resources :books
 
   # resources :ijins
 
