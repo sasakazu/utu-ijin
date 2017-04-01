@@ -10,7 +10,6 @@ Rails.application.routes.draw do
   # resources :ijins
 
   get 'pages/contact'
-  get 'pages/book'
   get 'pages/goodnews'
   get 'pages/checker'
 

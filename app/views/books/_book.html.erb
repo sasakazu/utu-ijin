@@ -3,13 +3,18 @@
 
 
 
-    <div class="bean-contents">
+    <div class="book-contents">
 
-    <p class="date"><%= # %></p>
+      <div class="col-md-4">
 
-      <h2><%= #link_to  %></h2>
+        <div class="book-loop-main">
 
-    <hr>
+          <h2><%= simple_format(book.image) %></h2>
+          <p><%= link_to 'レビューを見る', book %></p>
+
+
+        </div>
+      </div>
 
 
     </div>
