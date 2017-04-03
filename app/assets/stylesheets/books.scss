@@ -6,6 +6,35 @@
 
 // show.html.erb
 
+.book-show-main {
+
+  margin-top: 100px;
+  padding-bottom: 300px;
+
+}
+
+.book-show-image {
+  a {
+    display: block;
+    text-align: center;
+
+  }
+}
+
+.book-show-contents {
+
+  h2 {
+    margin-bottom: 30px;
+    color: #666;
+  }
+
+  p {
+    font-family: serif;
+    color: #999;
+  }
+
+}
+
 
 
 
@@ -16,7 +45,7 @@
 .index-main {
 
   margin-bottom: 100px;
-  
+
 }
 
 .book-header-title {

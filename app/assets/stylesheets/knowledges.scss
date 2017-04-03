@@ -14,11 +14,16 @@
   h2 {
     font-size: 47px;
     margin-bottom: 50px;
+    color: #999;
   }
 
   p {
     font-family: serif;
     font-size: 16px;
+    margin-left: 30px;
+    font-family: serif;
+    color: #666;
+    line-height: 29px;
   }
 
 }
@@ -29,4 +34,14 @@
   color: #999;
 
 
+}
+
+// _knowledge.html.erb
+
+.bean-contents {
+
+  a {
+    color: #999;
+
+  }
 }

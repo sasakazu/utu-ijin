@@ -6,20 +6,32 @@
 <div class="container">
 
   <div class="row">
-    <div class=""></div>
 
-    <div class="col-md-4">
+    <div class="book-show-main">
+
+
+    <div class="col-md-4 book-show-image">
       <%= simple_format(@book.image) %>
 
     </div>
 
-    <div class="col-md-8">
-      <%= @book.title %>
-      <%= simple_format(@book.contents) %>
+    <div class="col-md-8 book-show-contents">
+
+      <h2>
+        <%= @book.title %>
+      </h2>
+
+      <p>
+        <%= simple_format(@book.contents) %>
+      </p>
+
     </div>
 
   </div>
+  <!-- book-show-main -->
 
+  </div>
+<!-- row -->
 
 
 
