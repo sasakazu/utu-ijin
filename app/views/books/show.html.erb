@@ -9,12 +9,13 @@
     <div class=""></div>
 
     <div class="col-md-4">
-      <p><%= simple_format(@book.image) %></p><br>
+      <%= simple_format(@book.image) %>
 
     </div>
 
     <div class="col-md-8">
-      <p>texttexttexttexttexttexttexttext</p>
+      <%= @book.title %>
+      <%= simple_format(@book.contents) %>
     </div>
 
   </div>
