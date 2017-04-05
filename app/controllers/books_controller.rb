@@ -11,6 +11,10 @@ class BooksController < ApplicationController
     @books = Book.all
   end
 
+  def edit
+
+  end
+
 
 
   def create

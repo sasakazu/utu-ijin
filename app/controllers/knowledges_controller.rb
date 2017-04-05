@@ -1,5 +1,7 @@
 class KnowledgesController < ApplicationController
 
+
+
   def index
     @knowledges = Knowledge.all
 
@@ -11,8 +13,24 @@ class KnowledgesController < ApplicationController
 
 
   def new
-    @konwledge = Knowledge.new
+    @knowledge = Knowledge.new
   end
+
+  def edit
+    @knowledge = Knowledge.find(params[:id])
+  end
+
+
+  def update
+  @knowledge = Knowledge.find(params[:id])
+  if @knowledge.update_attributes(knowledge_params)
+    flash[:success] = "Profile updated"
+        redirect_to @knowledge
+  else
+    render 'edit'
+  end
+end
+
 
 
 
