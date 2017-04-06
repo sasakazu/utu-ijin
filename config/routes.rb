@@ -6,11 +6,11 @@ Rails.application.routes.draw do
   resources :users
   resources :knowledges
   resources :books
+  resources :goodnews
 
   # resources :ijins
 
   get 'pages/contact'
-  get 'pages/goodnews'
   get 'pages/checker'
 
 
