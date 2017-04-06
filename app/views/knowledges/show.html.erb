@@ -1,3 +1,5 @@
+
+
 <%= render 'shared/header' %>
 
 
@@ -11,7 +13,10 @@
 
       <h2><%= @knowledge.title %></h2><br>
 
-      <p><%= simple_format(@knowledge.contents) %></p><br>
+
+      <div class="knowledge-contents">
+        <%= simple_format(@knowledge.contents) %>
+      </div>
 
 
     </div>
