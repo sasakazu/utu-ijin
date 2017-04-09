@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170409080623) do
+ActiveRecord::Schema.define(version: 20170409083625) do
 
   create_table "books", force: :cascade do |t|
     t.string   "title"
@@ -28,6 +28,14 @@ ActiveRecord::Schema.define(version: 20170409080623) do
     t.datetime "updated_at", null: false
     t.string   "except"
     t.string   "linkurl"
+  end
+
+  create_table "ijins", force: :cascade do |t|
+    t.string   "ijinimage"
+    t.string   "name"
+    t.text     "contents"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "knowledges", force: :cascade do |t|
