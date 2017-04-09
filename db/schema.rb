@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170406101907) do
+ActiveRecord::Schema.define(version: 20170409080623) do
 
   create_table "books", force: :cascade do |t|
     t.string   "title"
@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 20170406101907) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string   "except"
+    t.string   "linkurl"
   end
 
   create_table "knowledges", force: :cascade do |t|

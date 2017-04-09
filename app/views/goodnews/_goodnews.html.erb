@@ -4,10 +4,19 @@
 
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="images/jobs.jpg" alt="...">
+      <div class="goodnew-link">
+
+        <a href="<%= goodnews.linkurl %>" target="_blank">
+          <img src="<%= goodnews.linkimage %>" alt="...">
+        </a>
+      </div>
+
       <div class="caption">
-        <h3><%= link_to goodnews.title, goodnews %></h3>
-        <p>exceptexceptexceptexceptexcept</p>
+
+        <h3>
+          <a href="<%= goodnews.linkurl %>" target="_blank"><%= goodnews.title %></a>
+        </h3>
+        <p><%= goodnews.except %></p>
       </div>
     </div>
   </div>

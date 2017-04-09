@@ -47,7 +47,7 @@ class GoodnewsController < ApplicationController
 
 
        def goodnews_params
-         params.require(:goodnews).permit(:title, :linkimage, :except)
+         params.require(:goodnews).permit(:title, :linkimage, :except, :linkurl)
        end
 
 

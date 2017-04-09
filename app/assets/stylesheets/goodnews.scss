@@ -10,10 +10,25 @@
 
 .goodnew-index-main {
 
+  margin-bottom: 200px;
+
   h1 {
     margin-top: 50px;
     margin-bottom: 100px;
     color: #666;
 
   }
+}
+
+.goodnew-link {
+  a {
+    img {
+      height: 280px!important;
+      width: 380px!important;
+    }
+  }
+}
+
+.thumbnail {
+  height: 500px!important;
 }
