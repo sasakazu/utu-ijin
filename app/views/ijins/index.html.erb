@@ -10,37 +10,14 @@
     <h2>あの偉人も、あの天才も鬱になっていた !</h2>
 
 
-   <div class="col-md-4">
 
-     <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Steave jobs">
-
-
-       <%= link_to image_tag("/images/jobs.jpg") , { :target => "_blank" } %>
-
-
-     </button>
-
-    </div>
-
-
+    <%= render @ijins %>
 
 
   </div>
 
 </div>
 
-
-
-
-
-
-<script type="text/javascript">
-
-  $(function () {
-    $('[data-toggle="tooltip"]').tooltip()
-  })
-
-</script>
 
 
 <%= render 'shared/footer' %>

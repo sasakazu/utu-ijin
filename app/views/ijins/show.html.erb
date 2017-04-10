@@ -5,32 +5,32 @@
 
 
 
-<div class="row">
-  <h1>スティーブ・ジョブズ</h1>
-    <div class="col-md-5">
-      <p>
-        スティーブ・ジョブズ。誰もが知っている起業家。<br>
-        誰もが見たことのあるiPhoneを作った人物。<br>
-        Appleの創業者の一人。<br>
-        ジョブズは鬱ではないが、アスペルガーやADHDではないかと噂された人物である。<br>
-        ジョブズは感情的ですぐに切れる性格だったという。<br><br>
-        そんなジョブスが革新的なパソコン、革命的なスマホを世に初めて出せたのは、もしかすると病気のお陰だったのかもしれない。<br>
-          <br>
+<div class="row ijin-show-main">
 
-      </p>
 
-    </div>
+  <div class="ijin-wrapper">
 
-  <div class="col-md-5">
 
-    <a href="#">
-      <img src="/images/jobs.jpg" alt="">
-    </a>
+        <div class="col-md-5 ijin-contents">
 
-  </div>
+          <h1><%= @ijin.name %></h1>
+          <%= simple_format(@ijin.contents) %>
+        </div>
+
+        <div class="col-md-5 ijin-image">
+
+        <%= image_tag @ijin.ijinimage %>
+
+        </div>
+
+      </div>
+
+
 </div>
+<!-- row -->
 
-
+</div>
+<!-- container -->
 
 
 

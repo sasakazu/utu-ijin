@@ -14,21 +14,33 @@ class IjinsController < ApplicationController
 
   def show
     @ijin = Ijin.find(params[:id])
+  end
 
+  def edit
+    @ijin = Ijin.find(params[:id])
   end
 
 
 
-    def create
-      @ijin = Ijin.new(ijins_params)
-      if @ijin.save
+  def create
+    @ijin = Ijin.new(ijins_params)
+    if @ijin.save
+      redirect_to @ijin
+
+    else
+     render "new"
+    end
+  end
+
+  def update
+    @ijin = Ijin.find(params[:id])
+    if @ijin.update_attributes(ijins_params)
+      flash[:success] = "Profile updated"
           redirect_to @ijin
-
-        else
-          render "new"
-        end
-     end
-
+    else
+      render 'edit'
+    end
+  end
 
 
 
