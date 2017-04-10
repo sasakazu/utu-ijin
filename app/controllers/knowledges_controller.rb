@@ -33,16 +33,24 @@ end
 
 
 
+  def create
+    @knowledge = Knowledge.new(knowledge_params)
+      if @knowledge.save
+          redirect_to @knowledge
 
-    def create
-      @knowledge = Knowledge.new(knowledge_params)
-        if @knowledge.save
-            redirect_to @knowledge
+      else
+      	render "new"
+      end
+  end
 
-      	else
-      		render "new"
-      	end
-    end
+
+  def destroy
+    Knowledge.find(params[:id]).destroy
+    flash[:success] = "User deleted"
+    redirect_to knowledges_url
+  end
+
+
 
 
 

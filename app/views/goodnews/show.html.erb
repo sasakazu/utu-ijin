@@ -1,6 +1,15 @@
+
+<%= link_to "edit", edit_goodnews_path %>
+<%= link_to "delete", @goodnews, method: :delete,
+data: { confirm: "You sure?" } %>
+
+
+
+
+
+
+
 <%= render 'shared/header' %>
-
-
 
 
 <h1>Goodnews#show</h1>

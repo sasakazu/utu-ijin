@@ -13,6 +13,7 @@ class GoodnewsController < ApplicationController
   end
 
   def edit
+    @goodnew = Goodnews.find(params[:id])
   end
 
 
@@ -37,6 +38,15 @@ class GoodnewsController < ApplicationController
         render "new"
       end
    end
+
+
+   def destroy
+     Goodnews.find(params[:id]).destroy
+     flash[:success] = "User deleted"
+     redirect_to goodnews_url
+   end
+
+
 
 
 

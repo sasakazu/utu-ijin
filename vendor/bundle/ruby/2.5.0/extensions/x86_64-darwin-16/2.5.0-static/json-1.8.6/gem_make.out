@@ -1,0 +1,13 @@
+current directory: /Users/sasakurakazuya/Dropbox/imake/rails5/utu-ijin/vendor/bundle/ruby/2.5.0/gems/json-1.8.6/ext/json
+/Users/sasakurakazuya/.rbenv/versions/2.3.0-dev/bin/ruby -r ./siteconf20170410-12922-1ws0dhe.rb extconf.rb
+creating Makefile
+
+current directory: /Users/sasakurakazuya/Dropbox/imake/rails5/utu-ijin/vendor/bundle/ruby/2.5.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/sasakurakazuya/Dropbox/imake/rails5/utu-ijin/vendor/bundle/ruby/2.5.0/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/sasakurakazuya/Dropbox/imake/rails5/utu-ijin/vendor/bundle/ruby/2.5.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" install

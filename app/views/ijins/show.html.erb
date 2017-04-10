@@ -1,3 +1,10 @@
+<%= link_to "edit", edit_ijin_path %>
+<%= link_to "delete", @ijin, method: :delete,
+data: { confirm: "You sure?" } %>
+
+
+
+
 <%= render 'shared/header' %>
 
 
@@ -15,6 +22,9 @@
 
           <h1><%= @ijin.name %></h1>
           <%= simple_format(@ijin.contents) %>
+
+      <%= render 'sns/twitter' %>
+              
         </div>
 
         <div class="col-md-5 ijin-image">

@@ -43,6 +43,17 @@ class IjinsController < ApplicationController
   end
 
 
+  def destroy
+    Ijin.find(params[:id]).destroy
+    flash[:success] = "User deleted"
+    redirect_to ijins_url
+  end
+
+
+
+
+
+
 
 
 
