@@ -10,6 +10,7 @@ class GoodnewsController < ApplicationController
   end
 
   def show
+    @goodnew = Goodnews.find(params[:id])    
   end
 
   def edit

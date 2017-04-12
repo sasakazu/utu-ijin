@@ -5,15 +5,23 @@ data: { confirm: "You sure?" } %>
 
 
 
-
-
-
-
 <%= render 'shared/header' %>
 
+<div class="container">
 
-<h1>Goodnews#show</h1>
-<p>Find me in app/views/goodnews/show.html.erb</p>
+    <p><%= @goodnew.title %></p>
+
+    <p><%= image_tag @goodnew.linkimage %></p>
+
+    <p><%= @goodnew.linkurl %></p>
+
+
+
+</div>
+
+
+
+
 
 
 
